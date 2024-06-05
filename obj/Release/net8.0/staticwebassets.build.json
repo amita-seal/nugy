@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EUPDuKFX4+9lNp4h7DXh9bMFHrCB4h+UhxZowyl3BVQ=",
+  "Source": "nuget",
+  "BasePath": "_content/nuget",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

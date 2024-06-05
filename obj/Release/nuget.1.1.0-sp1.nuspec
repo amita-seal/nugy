@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nuget</id>
+    <version>1.1.0-sp1</version>
+    <authors>nuget</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.Net.Http" version="4.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net8.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="/Users/amitagam/playground/nuget/bin/Release/net8.0/nuget.runtimeconfig.json" target="lib/net8.0/nuget.runtimeconfig.json" />
+    <file src="/Users/amitagam/playground/nuget/bin/Release/net8.0/nuget.dll" target="lib/net8.0/nuget.dll" />
+    <file src="/Users/amitagam/playground/nuget/appsettings.Development.json" target="content/appsettings.Development.json" />
+    <file src="/Users/amitagam/playground/nuget/appsettings.Development.json" target="contentFiles/any/net8.0/appsettings.Development.json" />
+    <file src="/Users/amitagam/playground/nuget/appsettings.json" target="content/appsettings.json" />
+    <file src="/Users/amitagam/playground/nuget/appsettings.json" target="contentFiles/any/net8.0/appsettings.json" />
+  </files>
+</package>
